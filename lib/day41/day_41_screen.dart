@@ -3,16 +3,28 @@ import 'package:ui_design_day_41_50/day41/itme_screen.dart';
 
 const color = 0xff424242;
 final List types = [
-  ["Feature", "assets/images/featureL.png", "assets/images/featureD.png"],
-  ["Apartment", "assets/images/apartmentL.png", "assets/images/apartmentD.png"],
-  ["lgloo", "assets/images/iglooL.png", "assets/images/iglooD.png"],
-  ["Host", "assets/images/apartmentL.png", "assets/images/apartmentD.png"],
+  [
+    "Feature",
+    "assets/images/day41/featureL.png",
+    "assets/images/day41/featureD.png"
+  ],
+  [
+    "Apartment",
+    "assets/images/day41/apartmentL.png",
+    "assets/images/day41/apartmentD.png"
+  ],
+  ["lgloo", "assets/images/day41/iglooL.png", "assets/images/day41/iglooD.png"],
+  [
+    "Host",
+    "assets/images/day41/apartmentL.png",
+    "assets/images/day41/apartmentD.png"
+  ],
 ];
 
 final List itmes = [
-  ["Mobile home", 4.95, "assets/images/1.png"],
-  ["Manufactured", 4.94, "assets/images/2.jpg"],
-  ["Living Roof", 4.95, "assets/images/3.jpg"],
+  ["Mobile home", 4.95, "assets/images/day41/1.png"],
+  ["Manufactured", 4.94, "assets/images/day41/2.jpg"],
+  ["Living Roof", 4.95, "assets/images/day41/3.jpg"],
 ];
 
 class Day41Screen extends StatefulWidget {

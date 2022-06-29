@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ui_design_day_41_50/day41/day_41_screen.dart';
+import 'package:ui_design_day_41_50/day42/day_42_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -50,15 +51,28 @@ class _MyHomePageState extends State<MyHomePage> {
               child: const Text(
                 "Day 41",
                 style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20),
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
+            ),
+            MaterialButton(
+              color: Colors.redAccent,
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const Day42Screen())),
+              child: const Text(
+                "Day 42",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
               ),
             )
           ],
         ),
       ),
-      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
