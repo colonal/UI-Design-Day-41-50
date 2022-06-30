@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:ui_design_day_41_50/day41/day_41_screen.dart';
 import 'package:ui_design_day_41_50/day42/day_42_screen.dart';
+import 'package:ui_design_day_41_50/day43/day_43_screen.dart';
+
+import 'app_scroll_behavior.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      scrollBehavior: AppScrollBehavior(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -57,12 +61,27 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
+            const SizedBox(height: 20),
             MaterialButton(
               color: Colors.redAccent,
               onPressed: () => Navigator.of(context)
                   .push(MaterialPageRoute(builder: (_) => const Day42Screen())),
               child: const Text(
                 "Day 42",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            MaterialButton(
+              color: Colors.orangeAccent,
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const Day43Screen())),
+              child: const Text(
+                "Day 43",
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
