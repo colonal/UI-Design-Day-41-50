@@ -18,3 +18,6 @@ flutter run
 
 ## Day 43 - Caren Family Onboarding
 <img src="screenshot/day43/1.jpg" height="300em"/> <img src="screenshot/day43/2.jpg" height="300em"/> <img src="screenshot/day43/3.jpg" height="300em"/>
+
+## Day 44 - Travel Mobile App Template
+<img src="screenshot/day44/1.png" height="500em"/> <img src="screenshot/day44/2.png" height="500em"/> 

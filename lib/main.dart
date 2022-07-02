@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ui_design_day_41_50/day41/day_41_screen.dart';
 import 'package:ui_design_day_41_50/day42/day_42_screen.dart';
 import 'package:ui_design_day_41_50/day43/day_43_screen.dart';
+import 'package:ui_design_day_41_50/day44/day_44_screen.dart';
 
 import 'app_scroll_behavior.dart';
 
@@ -82,6 +83,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   .push(MaterialPageRoute(builder: (_) => const Day43Screen())),
               child: const Text(
                 "Day 43",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            MaterialButton(
+              color: Colors.yellow[900],
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const Day44Scree())),
+              child: const Text(
+                "Day 44",
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
