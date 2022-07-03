@@ -21,3 +21,6 @@ flutter run
 
 ## Day 44 - Travel Mobile App Template
 <img src="screenshot/day44/1.png" height="500em"/> <img src="screenshot/day44/2.png" height="500em"/> 
+
+## Day 45 - Plant Shop App
+<img src="screenshot/day45/1.png" height="300em"/> <img src="screenshot/day45/2.png" height="300em"/> <img src="screenshot/day45/3.png" height="300em"/>
