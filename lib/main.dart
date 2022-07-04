@@ -5,6 +5,7 @@ import 'package:ui_design_day_41_50/day43/day_43_screen.dart';
 import 'package:ui_design_day_41_50/day44/day_44_screen.dart';
 import 'package:ui_design_day_41_50/day45/day_45_screen.dart';
 import 'package:ui_design_day_41_50/day46/day_46_screen.dart';
+import 'package:ui_design_day_41_50/day47/day_47_screen.dart';
 
 import 'app_scroll_behavior.dart';
 
@@ -127,6 +128,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   .push(MaterialPageRoute(builder: (_) => const Day46Screen())),
               child: const Text(
                 "Day 46",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            MaterialButton(
+              color: const Color(0xff3C3B80),
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const Day47Screen())),
+              child: const Text(
+                "Day 47",
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
