@@ -10,6 +10,7 @@ import 'package:ui_design_day_41_50/day48/day_48_screen.dart';
 import 'package:ui_design_day_41_50/day49/day_49_screen.dart';
 
 import 'app_scroll_behavior.dart';
+import 'day50/day_50_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -172,6 +173,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   .push(MaterialPageRoute(builder: (_) => const Day49Screen())),
               child: const Text(
                 "Day 49",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 20,
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+            MaterialButton(
+              color: const Color.fromARGB(255, 124, 210, 126),
+              onPressed: () => Navigator.of(context)
+                  .push(MaterialPageRoute(builder: (_) => const Day50Screen())),
+              child: const Text(
+                "Day 50",
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,

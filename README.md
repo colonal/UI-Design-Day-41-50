@@ -36,3 +36,6 @@ flutter run
 
 ## Day 49 - Mobile Sign up/ Sign in
 <img src="screenshot/day49/1.png" height="500em"/> <img src="screenshot/day49/3.png" height="500em"/><br><img src="screenshot/day49/2.png" height="500em"/> <img src="screenshot/day49/4.png" height="500em"/>
+
+## Day 50 - Fitness App
+<img src="screenshot/day50/1.png" height="500em"/> <img src="screenshot/day50/2.png" height="500em"/><br><img src="screenshot/day50/3.gif" height="500em"/>
