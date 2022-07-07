@@ -69,6 +69,16 @@ flutter:
     - assets/images/day48/
     - assets/images/day49/
     - assets/images/day50/
+    - screenshot/day41/
+    - screenshot/day42/
+    - screenshot/day43/
+    - screenshot/day44/
+    - screenshot/day45/
+    - screenshot/day46/
+    - screenshot/day47/
+    - screenshot/day48/
+    - screenshot/day49/
+    - screenshot/day50/
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
